@@ -21,7 +21,7 @@ public class ExcelUtils {
 		}
 	}
 
-	public  int getRowCount() {
+	public static  int getRowCount() {
 		int rowCount =0;
 		try {
 
@@ -36,7 +36,7 @@ public class ExcelUtils {
 		return rowCount;
 	}
 	
-	public  int getColCount() {
+	public static int getColCount() {
 		int ColCount = 0;
 		try {
 
@@ -68,9 +68,5 @@ public class ExcelUtils {
 		return cellData;
 
 	}
-	
-	
-	
-
 	
 }

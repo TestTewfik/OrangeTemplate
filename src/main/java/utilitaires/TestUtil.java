@@ -4,12 +4,20 @@ import java.lang.reflect.Method;
 
 import org.testng.annotations.DataProvider;
 
-import base.TestBase;
 
-public class TestUtil extends TestBase {
+
+
+public class TestUtil  {
 	
-	//String projectpath = System.getProperty("user.dir");
-	String excelPath = projectpath+"\\src\\test\\resources\\excel\\data.xlsx"; 
+	String pPath = System.getProperty("user.dir");
+	String excelPath = pPath+"\\src\\test\\resources\\excel\\data.xlsx"; 
+	
+	
+	public void testSyso() {
+		System.out.println("----------");
+	}
+	
+	
 	
 	@DataProvider(name = "dp")
 	public  Object[][] getData(Method m) {

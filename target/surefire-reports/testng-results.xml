@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteAllTest" duration-ms="27834" started-at="2018-12-28T14:10:40Z" finished-at="2018-12-28T14:11:08Z">
+    <groups>
+    </groups>
+    <test name="TestLoginValidData" duration-ms="10628" started-at="2018-12-28T14:10:40Z" finished-at="2018-12-28T14:10:51Z">
+      <class name="testCases.Login_valid_data_Tests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@3427b02d]" name="setUp" is-config="true" duration-ms="6770" started-at="2018-12-28T09:10:40Z" finished-at="2018-12-28T09:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@3427b02d]" name="login_With_Valid_Data" duration-ms="2081" started-at="2018-12-28T09:10:47Z" finished-at="2018-12-28T09:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Valid_Data -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@3427b02d]" name="logout" duration-ms="752" started-at="2018-12-28T09:10:49Z" finished-at="2018-12-28T09:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@3427b02d]" name="tearDown" is-config="true" duration-ms="997" started-at="2018-12-28T09:10:50Z" finished-at="2018-12-28T09:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Login_valid_data_Tests -->
+    </test> <!-- TestLoginValidData -->
+    <test name="TestLoginInvalidData" duration-ms="17159" started-at="2018-12-28T14:10:51Z" finished-at="2018-12-28T14:11:08Z">
+      <class name="testCases.Login_Invalid_data_Tests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="setUp" is-config="true" duration-ms="5035" started-at="2018-12-28T09:10:51Z" finished-at="2018-12-28T09:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1481" started-at="2018-12-28T09:10:57Z" data-provider="dp" finished-at="2018-12-28T09:10:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidData -->
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1384" started-at="2018-12-28T09:10:59Z" data-provider="dp" finished-at="2018-12-28T09:11:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidData -->
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1320" started-at="2018-12-28T09:11:00Z" data-provider="dp" finished-at="2018-12-28T09:11:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidData -->
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1748" started-at="2018-12-28T09:11:02Z" data-provider="dp" finished-at="2018-12-28T09:11:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidData -->
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="2068" started-at="2018-12-28T09:11:03Z" data-provider="dp" finished-at="2018-12-28T09:11:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidData -->
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="2123" started-at="2018-12-28T09:11:05Z" data-provider="dp" finished-at="2018-12-28T09:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credentials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="tearDown" is-config="true" duration-ms="792" started-at="2018-12-28T09:11:08Z" finished-at="2018-12-28T09:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Login_Invalid_data_Tests -->
+    </test> <!-- TestLoginInvalidData -->
+  </suite> <!-- SuiteAllTest -->
+</testng-results>

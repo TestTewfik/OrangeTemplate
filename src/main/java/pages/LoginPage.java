@@ -25,9 +25,12 @@ public class LoginPage extends TestBase{
 	public HomePage doLogin(String user, String pass) {
 		driver.findElement(usernameTxt).clear();
 		driver.findElement(usernameTxt).sendKeys(user);
+		logger.info("Entrer le username :"+user);
 		driver.findElement(passwordTxt).clear();
 		driver.findElement(passwordTxt).sendKeys(pass);
+		logger.info("Entrer le password :"+pass);
 		driver.findElement(submitBtn).click();
+		logger.info("Cliquer sur le bouton 'LOGIN'");
 		return new HomePage();
 	}
 	

@@ -25,23 +25,28 @@ public class Login_valid_data_Tests extends TestBase {
 	
 	
 	
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void login_With_Valid_Data()  {
 		loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		Assert.assertEquals(homePage.getWelcomeLinkElement().getText(), "Welcome Admin");
+		logger.info("l'utilisateur s'est authetifier avec succés");
 	}
 	
 	
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void logout()  {
 		homePage.doLogout();
 		Assert.assertEquals(loginPage.getorangeLogoElement().isDisplayed(), true);
+		logger.info("Déconnexion avec succés");
 	}
 	
 	@AfterClass
 	public void tearDown() {
+		logger.info(this.getClass().getName()+" ----> TERMINÉ");
+		logger.info("----------------------------------------");
 		driver.quit();
 		driver=null;
+		
 	}
 	
 }
