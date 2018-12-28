@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-SuiteAllTest">
-              <span class="suite-name border-passed">SuiteAllTest</span>
+              <span class="suite-name border-failed">SuiteAllTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteAllTest" class="hide-methods failed suite-SuiteAllTest"> (hide)</a> <!-- hide-methods failed suite-SuiteAllTest -->
+                      <a href="#" panel-name="suite-SuiteAllTest" class="show-methods failed suite-SuiteAllTest"> (show)</a> <!-- show-methods failed suite-SuiteAllTest -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteAllTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_valid_data_Tests" hash-for-method="login_With_Valid_Data">login_With_Valid_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteAllTest -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +116,12 @@
                     <div class="method-list-content passed suite-SuiteAllTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(abc, password, Invalid credentials)">loginInvalidData(abc, password, Invalid credentials)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(Admin, admin1234, Invalid credentials)">loginInvalidData(Admin, admin1234, Invalid credentials)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(abc, , Password cannot be empty)">loginInvalidData(abc, , Password cannot be empty)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(, , Username cannot be empty)">loginInvalidData(, , Username cannot be empty)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(abc, password, Invalid credentials)">loginInvalidData(abc, password, Invalid credentials)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,7 +136,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_valid_data_Tests" hash-for-method="login_With_Valid_Data">login_With_Valid_Data</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(Admin, admin1234, Invalid credentials)">loginInvalidData(Admin, admin1234, Invalid credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteAllTest" title="testCases.Login_Invalid_data_Tests" hash-for-method="loginInvalidData(, , Username cannot be empty)">loginInvalidData(, , Username cannot be empty)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,28 +161,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SuiteAllTest" class="panel SuiteAllTest">
+          <div class="suite-SuiteAllTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.Login_valid_data_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login_With_Valid_Data">
+                  </a> <!-- login_With_Valid_Data -->
+                  <span class="method-name">login_With_Valid_Data</span>
+                  <div class="stack-trace">java.lang.AssertionError: le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]
+	at testCases.Login_valid_data_Tests.login_With_Valid_Data(Login_valid_data_Tests.java:31)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTest-class-failed -->
+          <div class="suite-SuiteAllTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Login_valid_data_Tests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteAllTest-class-passed -->
           <div class="suite-SuiteAllTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">testCases.Login_Invalid_data_Tests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginInvalidData(abc, password, Invalid credentials)">
-                  </a> <!-- loginInvalidData(abc, password, Invalid credentials) -->
-                  <span class="method-name">loginInvalidData</span>
-                  <span class="parameters">(abc, password, Invalid credentials)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginInvalidData(Admin, admin1234, Invalid credentials)">
-                  </a> <!-- loginInvalidData(Admin, admin1234, Invalid credentials) -->
-                  <span class="method-name">loginInvalidData</span>
-                  <span class="parameters">(Admin, admin1234, Invalid credentials)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="loginInvalidData(abc, , Password cannot be empty)">
@@ -184,10 +211,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginInvalidData(, , Username cannot be empty)">
-                  </a> <!-- loginInvalidData(, , Username cannot be empty) -->
+                  <a name="loginInvalidData(abc, password, Invalid credentials)">
+                  </a> <!-- loginInvalidData(abc, password, Invalid credentials) -->
                   <span class="method-name">loginInvalidData</span>
-                  <span class="parameters">(, , Username cannot be empty)</span>
+                  <span class="parameters">(abc, password, Invalid credentials)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -206,26 +233,20 @@
                   <span class="parameters">(admin, Admin123, Invalid credentials)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SuiteAllTest-class-passed -->
-          <div class="suite-SuiteAllTest-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.Login_valid_data_Tests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login_With_Valid_Data">
-                  </a> <!-- login_With_Valid_Data -->
-                  <span class="method-name">login_With_Valid_Data</span>
+                  <a name="loginInvalidData(Admin, admin1234, Invalid credentials)">
+                  </a> <!-- loginInvalidData(Admin, admin1234, Invalid credentials) -->
+                  <span class="method-name">loginInvalidData</span>
+                  <span class="parameters">(Admin, admin1234, Invalid credentials)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logout">
-                  </a> <!-- logout -->
-                  <span class="method-name">logout</span>
+                  <a name="loginInvalidData(, , Username cannot be empty)">
+                  </a> <!-- loginInvalidData(, , Username cannot be empty) -->
+                  <span class="method-name">loginInvalidData</span>
+                  <span class="parameters">(, , Username cannot be empty)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -240,6 +261,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SuiteAllTest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listenners.TestngListeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestLoginValidData&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.Login_valid_data_Tests&quot;/&gt;
@@ -294,40 +318,40 @@ data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginInvalidData')
 data.setCell(0, 2, 'testCases.Login_Invalid_data_Tests')
-data.setCell(0, 3, 2162);
+data.setCell(0, 3, 2963);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginInvalidData')
 data.setCell(1, 2, 'testCases.Login_Invalid_data_Tests')
-data.setCell(1, 3, 2120);
+data.setCell(1, 3, 2580);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginInvalidData')
-data.setCell(2, 2, 'testCases.Login_Invalid_data_Tests')
-data.setCell(2, 3, 1834);
+data.setCell(2, 1, 'login_With_Valid_Data')
+data.setCell(2, 2, 'testCases.Login_valid_data_Tests')
+data.setCell(2, 3, 2213);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginInvalidData')
 data.setCell(3, 2, 'testCases.Login_Invalid_data_Tests')
-data.setCell(3, 3, 1800);
+data.setCell(3, 3, 2123);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'loginInvalidData')
 data.setCell(4, 2, 'testCases.Login_Invalid_data_Tests')
-data.setCell(4, 3, 1705);
+data.setCell(4, 3, 1763);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login_With_Valid_Data')
-data.setCell(5, 2, 'testCases.Login_valid_data_Tests')
-data.setCell(5, 3, 1670);
+data.setCell(5, 1, 'loginInvalidData')
+data.setCell(5, 2, 'testCases.Login_Invalid_data_Tests')
+data.setCell(5, 3, 1697);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'loginInvalidData')
 data.setCell(6, 2, 'testCases.Login_Invalid_data_Tests')
-data.setCell(6, 3, 1368);
+data.setCell(6, 3, 1607);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'logout')
 data.setCell(7, 2, 'testCases.Login_valid_data_Tests')
-data.setCell(7, 3, 1050);
+data.setCell(7, 3, 843);
 window.suiteTableData['SuiteAllTest']= { tableData: data, tableDiv: 'times-div-SuiteAllTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-SuiteAllTest">
               </div> <!-- times-div-SuiteAllTest -->
             </div> <!-- times-div -->
@@ -359,51 +383,53 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login_With_Valid_Data</span>
-                <span class="method-start">6633 ms</span>
+                <span class="method-start">8323 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logout</span>
-                <span class="method-start">8309 ms</span>
+                <span class="method-start">11062 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9362 ms</span>
+                <span class="method-start">11908 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.Login_Invalid_data_Tests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">10821 ms</span>
+                <span class="method-start">12945 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginInvalidData(, , Username cannot be empty)</span>
-                <span class="method-start">18243 ms</span>
+                <span class="method-start">21621 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginInvalidData(, password, Username cannot be empty)</span>
-                <span class="method-start">20046 ms</span>
+                <span class="method-start">23386 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginInvalidData(abc, , Password cannot be empty)</span>
-                <span class="method-start">21753 ms</span>
+                <span class="method-start">25084 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginInvalidData(abc, password, Invalid credentials)</span>
-                <span class="method-start">23122 ms</span>
+                <span class="method-start">26693 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginInvalidData(admin, Admin123, Invalid credentials)</span>
-                <span class="method-start">24958 ms</span>
+                <span class="method-start">28818 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginInvalidData(Admin, admin1234, Invalid credentials)</span>
-                <span class="method-start">27123 ms</span>
+                <span class="method-start">31400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29246 ms</span>
+                <span class="method-start">34364 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

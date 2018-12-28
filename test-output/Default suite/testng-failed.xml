@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.Login_Invalid_data_Tests">
+      <class name="testCases.Login_valid_data_Tests">
         <methods>
-          <include name="loginInvalidData"/>
-          <include name="setUp"/>
+          <include name="login_With_Valid_Data"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.Login_Invalid_data_Tests -->
+      </class> <!-- testCases.Login_valid_data_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

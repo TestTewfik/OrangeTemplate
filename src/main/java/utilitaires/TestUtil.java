@@ -1,20 +1,41 @@
 package utilitaires;
 
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.DataProvider;
 
+import base.TestBase;
 
 
 
-public class TestUtil  {
-	
-	String pPath = System.getProperty("user.dir");
-	String excelPath = pPath+"\\src\\test\\resources\\excel\\data.xlsx"; 
+
+public class TestUtil extends TestBase  {
 	
 	
-	public void testSyso() {
-		System.out.println("----------");
+	String excelPath = projectpath+"\\src\\test\\resources\\excel\\data.xlsx"; 
+	
+	
+	public static void captureScreenShot() throws IOException {
+		String directory = projectpath + "\\src\\test\\resources\\screenshots\\";
+		String fileName = "ScreenShot"+getDate()+".png";
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);											 
+		FileUtils.copyFile(scrFile, new File(directory + fileName));;
+	}
+	
+	
+	public static String getDate()
+	{
+		final DateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
+		Date date = new Date();
+		return(sdf.format(date));
 	}
 	
 	

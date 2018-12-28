@@ -1,12 +1,13 @@
 package base;
 
 /*
- * webdriver
- * properties
- * logs
+ * webdriver 	done
+ * properties  	done
+ * logs  		done
  * extentreport
- * excel
+ * excel 		done
  * mail
+ * jenkins
  */
 
 import java.io.FileInputStream;
