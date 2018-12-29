@@ -1,37 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteAllTest" duration-ms="27834" started-at="2018-12-28T14:10:40Z" finished-at="2018-12-28T14:11:08Z">
+  <suite name="SuiteAllTest" duration-ms="37939" started-at="2018-12-29T02:14:19Z" finished-at="2018-12-29T02:14:57Z">
     <groups>
     </groups>
-    <test name="TestLoginValidData" duration-ms="10628" started-at="2018-12-28T14:10:40Z" finished-at="2018-12-28T14:10:51Z">
+    <test name="TestLoginValidData" duration-ms="15802" started-at="2018-12-29T02:14:19Z" finished-at="2018-12-29T02:14:35Z">
       <class name="testCases.Login_valid_data_Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@3427b02d]" name="setUp" is-config="true" duration-ms="6770" started-at="2018-12-28T09:10:40Z" finished-at="2018-12-28T09:10:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@7133da86]" name="setUp" is-config="true" duration-ms="10777" started-at="2018-12-28T21:14:19Z" finished-at="2018-12-28T21:14:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@3427b02d]" name="login_With_Valid_Data" duration-ms="2081" started-at="2018-12-28T09:10:47Z" finished-at="2018-12-28T09:10:49Z">
+        <test-method status="FAIL" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@7133da86]" name="login_With_Valid_Data" duration-ms="2245" started-at="2018-12-28T21:14:30Z" finished-at="2018-12-28T21:14:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at testCases.Login_valid_data_Tests.login_With_Valid_Data(Login_valid_data_Tests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_With_Valid_Data -->
-        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@3427b02d]" name="logout" duration-ms="752" started-at="2018-12-28T09:10:49Z" finished-at="2018-12-28T09:10:50Z">
+        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@7133da86]" name="logout" duration-ms="710" started-at="2018-12-28T21:14:33Z" finished-at="2018-12-28T21:14:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@3427b02d]" name="tearDown" is-config="true" duration-ms="997" started-at="2018-12-28T09:10:50Z" finished-at="2018-12-28T09:10:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@7133da86]" name="tearDown" is-config="true" duration-ms="847" started-at="2018-12-28T21:14:34Z" finished-at="2018-12-28T21:14:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Login_valid_data_Tests -->
     </test> <!-- TestLoginValidData -->
-    <test name="TestLoginInvalidData" duration-ms="17159" started-at="2018-12-28T14:10:51Z" finished-at="2018-12-28T14:11:08Z">
+    <test name="TestLoginInvalidData" duration-ms="21835" started-at="2018-12-29T02:14:35Z" finished-at="2018-12-29T02:14:57Z">
       <class name="testCases.Login_Invalid_data_Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="setUp" is-config="true" duration-ms="5035" started-at="2018-12-28T09:10:51Z" finished-at="2018-12-28T09:10:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="setUp" is-config="true" duration-ms="8236" started-at="2018-12-28T21:14:35Z" finished-at="2018-12-28T21:14:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1481" started-at="2018-12-28T09:10:57Z" data-provider="dp" finished-at="2018-12-28T09:10:59Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1742" started-at="2018-12-28T21:14:44Z" data-provider="dp" finished-at="2018-12-28T21:14:46Z">
           <params>
             <param index="0">
               <value>
@@ -52,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1384" started-at="2018-12-28T09:10:59Z" data-provider="dp" finished-at="2018-12-28T09:11:00Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1908" started-at="2018-12-28T21:14:46Z" data-provider="dp" finished-at="2018-12-28T21:14:48Z">
           <params>
             <param index="0">
               <value>
@@ -73,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1320" started-at="2018-12-28T09:11:00Z" data-provider="dp" finished-at="2018-12-28T09:11:02Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1792" started-at="2018-12-28T21:14:48Z" data-provider="dp" finished-at="2018-12-28T21:14:50Z">
           <params>
             <param index="0">
               <value>
@@ -94,7 +138,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="1748" started-at="2018-12-28T09:11:02Z" data-provider="dp" finished-at="2018-12-28T09:11:03Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1773" started-at="2018-12-28T21:14:50Z" data-provider="dp" finished-at="2018-12-28T21:14:52Z">
           <params>
             <param index="0">
               <value>
@@ -115,7 +159,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="2068" started-at="2018-12-28T09:11:03Z" data-provider="dp" finished-at="2018-12-28T09:11:05Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="2220" started-at="2018-12-28T21:14:52Z" data-provider="dp" finished-at="2018-12-28T21:14:54Z">
           <params>
             <param index="0">
               <value>
@@ -136,7 +180,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="loginInvalidData" duration-ms="2123" started-at="2018-12-28T09:11:05Z" data-provider="dp" finished-at="2018-12-28T09:11:08Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="2050" started-at="2018-12-28T21:14:54Z" data-provider="dp" finished-at="2018-12-28T21:14:56Z">
           <params>
             <param index="0">
               <value>
@@ -157,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@56620197]" name="tearDown" is-config="true" duration-ms="792" started-at="2018-12-28T09:11:08Z" finished-at="2018-12-28T09:11:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="tearDown" is-config="true" duration-ms="807" started-at="2018-12-28T21:14:56Z" finished-at="2018-12-28T21:14:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

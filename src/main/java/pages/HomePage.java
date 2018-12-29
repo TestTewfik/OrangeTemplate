@@ -23,9 +23,11 @@ public class HomePage extends TestBase {
 	
 	//Actions
 	public void doLogout() {
-		getWelcomeLinkElement().click();
+		click(getWelcomeLinkElement(),"welcomeLink");
+		//getWelcomeLinkElement().click();
 		logger.info("Cliquer sur le lien 'Welcome Admin'");
-		getLogoutBtnElement().click();
+		//getLogoutBtnElement().click();
+		click(getLogoutBtnElement(),"logoutBtn");
 		logger.info("Cliquer sur le bouton 'Logout'");
 	}
 	

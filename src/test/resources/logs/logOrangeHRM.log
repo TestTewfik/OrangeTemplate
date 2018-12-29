@@ -1,449 +1,385 @@
-[INFO ] 2018-12-28 07:09:59.665 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 07:09:59.801 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 07:10:01.318 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 07:10:01.699 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 07:10:02.075 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:03.314 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 07:10:03.652 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 07:10:03.981 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:05.210 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 07:10:05.350 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 07:10:05.742 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:06.978 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 07:10:07.160 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 07:10:07.446 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:08.678 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 07:10:08.882 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 07:10:09.428 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:10.628 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 07:10:10.788 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 07:10:11.305 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:12.350 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 07:10:12.350 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 07:10:17.636 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 07:10:17.636 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 07:10:17.931 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 07:10:18.102 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 07:10:19.221 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 07:10:19.619 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 07:10:19.785 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 07:10:20.284 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 07:10:20.331 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 07:10:20.333 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 07:10:20.334 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:06:14.494 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:06:14.501 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:06:16.335 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:06:16.478 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:06:16.594 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:18.094 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:06:18.352 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:06:18.412 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:19.889 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:06:20.198 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:06:20.329 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:21.622 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:06:21.814 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:06:22.522 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:23.777 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:06:23.999 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:06:24.822 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:26.120 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:06:26.342 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:06:26.995 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:28.046 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:06:28.046 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:06:49.733 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:06:49.740 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:06:51.073 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:06:51.438 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:06:51.729 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:52.943 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:06:53.073 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:06:53.138 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:54.297 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:06:54.395 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:06:54.464 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:55.954 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:06:56.163 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:06:57.073 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:06:58.312 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:06:58.493 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:06:59.644 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:07:00.953 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:07:01.188 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:07:01.957 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:07:03.030 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:07:03.030 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:07:09.014 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:07:09.018 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:07:09.325 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:07:09.520 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 08:07:10.569 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:07:10.646 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 08:07:11.293 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 08:07:12.154 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 08:07:12.209 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 08:07:12.211 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:07:12.211 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:10:56.956 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:10:57.019 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:10:58.368 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:10:58.741 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:10:59.082 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:00.245 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:11:00.386 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:11:00.452 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:01.620 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:11:01.741 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:11:01.807 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:03.267 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:11:03.609 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:11:04.059 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:05.390 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:11:05.635 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:11:06.243 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:07.603 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:11:07.902 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:11:08.599 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:09.653 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:11:09.653 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:11:15.821 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:11:15.821 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:11:16.745 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:11:17.304 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 08:11:18.584 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:11:18.692 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 08:11:20.216 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 08:11:20.946 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 08:11:21.005 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 08:11:21.005 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:11:21.006 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:12:12.654 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:12:12.667 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:12:14.047 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:12:14.224 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:12:14.359 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:15.569 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:12:15.746 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:12:15.822 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:17.004 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:12:17.138 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:12:17.200 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:18.625 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:12:18.777 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:12:19.114 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:20.645 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:12:20.830 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:12:21.346 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:22.755 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:12:22.947 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:12:23.493 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:24.537 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:12:24.537 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:12:30.583 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:12:30.583 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:12:30.996 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:12:31.475 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 08:12:32.800 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:12:33.659 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 08:12:33.916 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 08:12:34.423 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 08:12:34.489 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 08:12:34.490 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:12:34.490 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:16:00.099 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:16:00.107 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:16:00.387 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:16:00.592 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 08:16:01.715 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:01.806 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 08:16:02.291 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 08:16:02.803 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 08:16:02.862 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 08:16:02.865 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:16:02.865 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:16:09.949 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:16:09.950 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:16:11.913 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:16:12.055 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:16:12.372 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:13.846 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:16:14.141 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:16:14.209 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:15.399 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:16:15.522 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:16:15.586 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:16.805 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:16:16.961 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:16:17.404 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:18.683 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:16:18.960 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:16:19.575 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:20.834 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:16:21.041 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:16:21.635 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:16:22.750 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:16:22.750 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:17:54.485 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:17:54.518 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:17:54.815 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:17:55.032 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 08:17:56.724 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:17:57.636 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 08:17:57.805 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 08:17:58.397 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 08:17:58.463 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 08:17:58.464 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:17:58.465 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:18:04.462 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:18:04.464 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:18:05.617 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:18:05.763 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:18:05.884 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:18:07.036 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:18:07.176 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:18:07.251 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:18:08.796 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:18:08.890 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:18:08.950 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:18:10.123 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:18:10.289 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:18:10.657 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:18:11.951 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:18:12.177 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:18:12.788 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:18:13.982 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:18:14.145 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:18:14.816 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:18:15.917 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:18:15.919 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:55:43.934 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:55:43.941 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:55:44.244 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:55:44.430 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 08:55:46.151 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:55:46.236 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 08:55:46.350 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 08:55:46.895 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 08:55:46.960 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 08:55:46.961 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:55:46.961 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 08:55:55.734 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 08:55:55.735 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 08:55:56.979 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:55:57.122 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:55:57.247 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:55:58.399 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 08:55:58.539 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:55:58.622 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:55:59.764 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:55:59.863 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 08:55:59.921 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:56:01.080 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 08:56:01.242 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 08:56:01.591 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:56:02.864 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 08:56:03.078 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 08:56:03.712 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:56:04.937 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 08:56:05.138 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 08:56:05.798 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 08:56:06.838 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 08:56:06.838 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 09:07:49.982 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 09:07:49.989 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 09:07:50.317 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 09:07:50.560 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 09:07:51.741 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:07:52.358 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 09:07:52.569 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 09:07:53.404 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 09:07:53.477 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 09:07:53.478 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 09:07:53.478 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 09:08:00.788 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 09:08:00.788 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 09:08:02.197 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 09:08:02.374 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 09:08:02.539 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:08:03.720 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 09:08:03.925 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 09:08:04.003 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:08:05.179 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 09:08:05.315 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 09:08:05.385 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:08:06.557 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 09:08:06.735 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 09:08:07.267 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:08:08.557 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 09:08:08.838 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 09:08:09.502 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:08:10.874 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 09:08:11.093 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 09:08:11.857 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:08:12.906 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 09:08:12.906 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 09:10:47.698 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 09:10:47.705 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 09:10:48.105 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 09:10:48.345 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 09:10:49.442 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:10:49.855 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 09:10:49.984 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 09:10:50.553 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 09:10:50.610 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 09:10:50.611 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 09:10:50.611 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 09:10:56.688 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 09:10:56.688 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 09:10:58.049 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 09:10:58.185 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 09:10:58.310 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:10:59.490 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 09:10:59.645 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 09:10:59.726 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:11:00.881 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 09:11:00.976 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 09:11:01.046 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:11:02.225 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 09:11:02.389 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 09:11:02.775 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:11:04.005 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 09:11:04.311 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 09:11:04.841 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:11:06.083 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 09:11:06.349 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 09:11:06.926 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:11:08.021 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 09:11:08.022 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 09:40:36.243 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 09:40:36.250 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 09:40:36.487 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 09:40:36.687 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 09:40:37.798 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:40:38.238 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 09:40:38.447 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 09:40:38.945 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 09:40:39.015 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 09:40:39.017 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 09:40:39.018 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 09:41:18.644 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 09:41:18.651 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 09:41:18.867 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 09:41:19.049 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 09:41:20.169 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 09:41:20.709 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 09:41:21.219 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 09:41:21.273 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 09:41:21.276 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 09:41:21.277 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:20:11.576 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:20:11.583 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:20:11.862 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:20:12.098 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 10:20:13.276 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:13.876 [main] TestBase - l'utilisateur s'est authetifier avec succés
-[INFO ] 2018-12-28 10:20:14.093 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 10:20:14.772 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 10:20:14.868 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 10:20:14.871 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:20:14.872 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:20:23.718 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:20:23.718 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:20:25.196 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 10:20:25.356 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 10:20:25.471 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:26.675 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 10:20:26.854 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 10:20:26.939 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:28.122 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 10:20:28.266 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 10:20:28.347 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:29.610 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 10:20:29.887 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 10:20:30.290 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:31.739 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 10:20:32.095 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 10:20:32.768 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:34.119 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:20:34.458 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 10:20:35.171 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:20:36.257 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:20:36.258 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:21:44.434 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:21:44.443 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:21:44.742 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:21:45.002 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 10:21:46.185 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:21:46.827 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 10:21:47.441 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 10:21:47.518 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 10:21:47.521 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:21:47.521 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:22:53.520 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:22:53.527 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:22:53.838 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:22:54.087 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 10:22:55.253 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:22:56.350 [main] TestBase - voir capture d'ecran à :C:\Users\tbela_000\eclipse-workspace\OrangeHRMPractice\src\test\resources\screenshots
-[INFO ] 2018-12-28 10:22:56.516 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 10:22:57.117 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 10:22:57.185 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 10:22:57.188 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:22:57.189 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:23:04.292 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:23:04.293 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:23:05.713 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 10:23:05.925 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 10:23:06.092 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:23:07.311 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 10:23:07.509 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 10:23:07.574 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:23:08.903 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 10:23:09.021 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 10:23:09.116 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:23:10.387 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 10:23:10.642 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 10:23:11.054 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:23:12.367 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 10:23:12.729 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 10:23:13.890 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:23:15.351 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:23:15.685 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 10:23:16.904 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:23:17.985 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:23:17.985 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:24:38.401 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:24:38.409 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:24:38.773 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:24:39.002 [main] TestBase - Entrer le password :admin123
-[INFO ] 2018-12-28 10:24:40.213 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:24:41.213 [main] TestBase - voir capture d'ecran à :C:\Users\tbela_000\eclipse-workspace\OrangeHRMPractice\src\test\resources\screenshots
-[INFO ] 2018-12-28 10:24:41.371 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
-[INFO ] 2018-12-28 10:24:41.972 [main] TestBase - Cliquer sur le bouton 'Logout'
-[INFO ] 2018-12-28 10:24:42.058 [main] TestBase - Déconnexion avec succés
-[INFO ] 2018-12-28 10:24:42.063 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:24:42.064 [main] TestBase - ----------------------------------------
-[INFO ] 2018-12-28 10:24:49.682 [main] TestBase - -----------------------------------------
-[INFO ] 2018-12-28 10:24:49.683 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
-[INFO ] 2018-12-28 10:24:52.046 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 10:24:52.260 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 10:24:52.443 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:24:53.768 [main] TestBase - Entrer le username :
-[INFO ] 2018-12-28 10:24:54.061 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 10:24:54.177 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:24:55.439 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 10:24:55.643 [main] TestBase - Entrer le password :
-[INFO ] 2018-12-28 10:24:55.791 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:24:57.114 [main] TestBase - Entrer le username :abc
-[INFO ] 2018-12-28 10:24:57.393 [main] TestBase - Entrer le password :password
-[INFO ] 2018-12-28 10:24:57.891 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:24:59.352 [main] TestBase - Entrer le username :admin
-[INFO ] 2018-12-28 10:24:59.726 [main] TestBase - Entrer le password :Admin123
-[INFO ] 2018-12-28 10:25:00.493 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:25:01.819 [main] TestBase - Entrer le username :Admin
-[INFO ] 2018-12-28 10:25:02.115 [main] TestBase - Entrer le password :admin1234
-[INFO ] 2018-12-28 10:25:03.428 [main] TestBase - Cliquer sur le bouton 'LOGIN'
-[INFO ] 2018-12-28 10:25:04.519 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
-[INFO ] 2018-12-28 10:25:04.519 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:18:51.728 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:18:51.759 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:18:52.257 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:18:52.467 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 08:18:53.645 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:18:54.907 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 08:18:55.373 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 08:18:55.440 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 08:18:55.487 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:18:55.487 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:19:02.728 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:19:02.728 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:19:04.474 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:19:04.605 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:19:04.704 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:19:05.869 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:19:06.002 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:19:06.054 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:19:07.211 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:19:07.299 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:19:07.363 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:19:08.536 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:19:08.668 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:19:08.960 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:19:10.254 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 08:19:10.448 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 08:19:11.011 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:19:12.266 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:19:12.462 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 08:19:13.022 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:19:14.077 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:19:14.077 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:24:35.881 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:24:35.889 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:24:36.185 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:24:36.367 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 08:24:37.471 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:24:37.580 [main] TestBase - l'utilisateur s'est authetifier avec succés
+[INFO ] 2018-12-29 08:24:38.069 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 08:24:38.547 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 08:24:38.605 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 08:24:38.619 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:24:38.619 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:24:48.787 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:24:48.787 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:24:50.208 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:24:50.460 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:24:50.647 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:24:51.832 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:24:51.993 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:24:52.057 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:24:53.298 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:24:53.416 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:24:53.474 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:24:54.692 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:24:54.838 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:24:55.151 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:24:56.449 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 08:24:56.662 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 08:24:57.179 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:24:58.542 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:24:58.712 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 08:24:59.305 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:25:00.369 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:25:00.370 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:36:36.286 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:36:36.293 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:36:36.643 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:36:36.814 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 08:36:37.881 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:39.033 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 08:36:39.615 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 08:36:39.673 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 08:36:39.697 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:36:39.697 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:36:47.071 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:36:47.071 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:36:48.218 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:36:48.352 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:36:48.453 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:49.646 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:36:49.788 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:36:49.847 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:51.021 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:36:51.123 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:36:51.184 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:52.378 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:36:52.529 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:36:52.868 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:54.183 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 08:36:54.376 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 08:36:54.897 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:56.149 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:36:56.330 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 08:36:56.843 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:36:57.918 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:36:57.918 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:43:29.761 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:43:29.768 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:43:30.124 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:43:30.295 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 08:43:31.399 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:32.548 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 08:43:33.107 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 08:43:33.177 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 08:43:33.198 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:43:33.198 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:43:42.498 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:43:42.499 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:43:43.769 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:43:44.010 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:43:44.191 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:45.377 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:43:45.512 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:43:45.564 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:46.721 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:43:46.810 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:43:46.863 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:48.133 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:43:48.269 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:43:48.588 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:49.890 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 08:43:50.072 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 08:43:50.641 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:51.867 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:43:52.060 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 08:43:53.154 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:43:54.208 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:43:54.208 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:54:55.015 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:54:55.021 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:54:55.446 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:54:55.664 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 08:54:56.800 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:54:58.224 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 08:54:58.782 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 08:54:58.840 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 08:54:58.868 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:54:58.868 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 08:55:07.637 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 08:55:07.637 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 08:55:09.029 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:55:09.263 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:55:09.477 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:55:10.664 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 08:55:10.834 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:55:10.898 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:55:12.075 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:55:12.173 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 08:55:12.245 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:55:13.481 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 08:55:13.639 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 08:55:14.017 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:55:15.411 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 08:55:15.609 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 08:55:16.239 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:55:17.480 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 08:55:17.690 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 08:55:18.321 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 08:55:19.392 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 08:55:19.393 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:03:25.521 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:03:25.529 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:03:26.063 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:03:26.260 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:03:27.722 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:29.015 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:03:29.611 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:03:29.676 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:03:29.721 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:03:29.721 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:03:40.300 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:03:40.300 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:03:42.632 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:03:42.812 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:03:43.021 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:44.265 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:03:44.445 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:03:44.522 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:45.715 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:03:45.840 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:03:45.929 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:47.143 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:03:47.336 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:03:47.704 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:49.136 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:03:49.331 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:03:49.991 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:51.282 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:03:51.478 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:03:52.110 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:03:53.183 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:03:53.183 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:07:26.959 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:07:26.968 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:07:27.375 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:07:27.549 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:07:28.588 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:29.697 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:07:30.276 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:07:30.334 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:07:30.367 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:07:30.367 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:07:38.383 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:07:38.383 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:07:40.413 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:07:40.775 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:07:40.915 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:42.150 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:07:42.334 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:07:42.403 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:43.601 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:07:43.815 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:07:43.930 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:45.153 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:07:45.334 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:07:45.706 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:47.141 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:07:47.358 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:07:47.953 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:49.397 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:07:49.623 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:07:50.222 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:07:51.314 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:07:51.314 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:34:50.050 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:34:50.058 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:34:50.399 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:34:50.580 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:34:51.635 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:34:52.904 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:34:53.432 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:34:53.493 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:34:53.515 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:34:53.516 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:35:00.028 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:35:00.031 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:35:01.272 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:35:01.420 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:35:01.520 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:35:02.719 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:35:02.872 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:35:02.940 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:35:04.115 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:35:04.227 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:35:04.295 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:35:05.499 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:35:05.656 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:35:05.975 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:35:07.337 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:35:07.555 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:35:08.175 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:35:09.430 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:35:09.615 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:35:10.179 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:35:11.259 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:35:11.260 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:41:29.466 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:41:29.474 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:41:29.844 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:41:30.051 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:41:31.180 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:32.616 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:41:33.139 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:41:33.208 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:41:33.230 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:41:33.230 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:41:39.707 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:41:39.707 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:41:40.866 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:41:41.033 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:41:41.135 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:42.303 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:41:42.430 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:41:42.494 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:43.871 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:41:43.990 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:41:44.062 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:45.272 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:41:45.429 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:41:45.758 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:47.106 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:41:47.289 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:41:47.845 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:49.113 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:41:49.297 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:41:49.845 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:41:50.989 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:41:50.990 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:44:58.481 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:44:58.488 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:44:58.826 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:44:59.001 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:45:00.175 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:01.560 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:45:02.074 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:45:02.182 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:45:02.214 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:45:02.214 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:45:08.525 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:45:08.525 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:45:10.248 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:45:10.397 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:45:10.511 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:11.712 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:45:11.884 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:45:11.948 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:13.170 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:45:13.272 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:45:13.343 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:14.596 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:45:14.796 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:45:15.168 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:16.518 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:45:16.704 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:45:17.267 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:18.511 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:45:18.679 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:45:19.206 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:45:20.268 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:45:20.269 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:50:17.417 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:50:17.426 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:50:17.823 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:50:18.027 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:50:19.111 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:20.329 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:50:20.869 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:50:20.955 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:50:21.024 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:50:21.024 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:50:27.533 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:50:27.534 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:50:28.931 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:50:29.147 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:50:29.401 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:30.584 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:50:30.737 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:50:30.798 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:31.974 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:50:32.075 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:50:32.151 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:33.363 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:50:33.535 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:50:33.847 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:35.215 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:50:35.431 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:50:36.108 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:37.407 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:50:37.615 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:50:38.216 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:50:39.291 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:50:39.295 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:58:54.021 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:58:54.029 [main] TestBase - testCases.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:58:54.381 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:58:54.551 [main] TestBase - Entrer le password :admin123
+[INFO ] 2018-12-29 09:58:55.599 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:58:56.811 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2018-12-29 09:58:57.488 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2018-12-29 09:58:57.588 [main] TestBase - Déconnexion avec succés
+[INFO ] 2018-12-29 09:58:57.617 [main] TestBase - testCases.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:58:57.617 [main] TestBase - ----------------------------------------
+[INFO ] 2018-12-29 09:59:04.312 [main] TestBase - -----------------------------------------
+[INFO ] 2018-12-29 09:59:04.313 [main] TestBase - testCases.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2018-12-29 09:59:05.923 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:59:06.362 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:59:06.528 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:59:07.687 [main] TestBase - Entrer le username :
+[INFO ] 2018-12-29 09:59:07.830 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:59:07.891 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:59:09.056 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:59:09.212 [main] TestBase - Entrer le password :
+[INFO ] 2018-12-29 09:59:09.278 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:59:10.451 [main] TestBase - Entrer le username :abc
+[INFO ] 2018-12-29 09:59:10.593 [main] TestBase - Entrer le password :password
+[INFO ] 2018-12-29 09:59:10.949 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:59:12.239 [main] TestBase - Entrer le username :admin
+[INFO ] 2018-12-29 09:59:12.424 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2018-12-29 09:59:12.943 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:59:14.222 [main] TestBase - Entrer le username :Admin
+[INFO ] 2018-12-29 09:59:14.387 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2018-12-29 09:59:14.904 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2018-12-29 09:59:15.974 [main] TestBase - testCases.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2018-12-29 09:59:15.975 [main] TestBase - ----------------------------------------

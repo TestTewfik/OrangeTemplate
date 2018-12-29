@@ -28,7 +28,7 @@ public class Login_valid_data_Tests extends TestBase {
 	@Test(priority = 1)
 	public void login_With_Valid_Data()  {
 		loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
-		Assert.assertEquals(homePage.getWelcomeLinkElement().getText(), "Welcome Admin.","le lbellé est erroné");
+		Assert.assertEquals(homePage.getWelcomeLinkElement().getText(), "Welcome Admin.","le libellé est erroné");
 		logger.info("l'utilisateur s'est authetifier avec succés");
 	}
 	

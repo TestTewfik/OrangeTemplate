@@ -18,8 +18,15 @@ import java.util.concurrent.TimeUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import listenners.ExtentListeners;
+
+
+
+
 
 public class TestBase {
 	
@@ -28,6 +35,8 @@ public class TestBase {
 	public static Properties prop;
 	public static FileInputStream fis ;
 	public static final Logger logger = LogManager.getLogger(TestBase.class);
+	
+
 	
 	
 	public WebDriver initialiserDriver() throws IOException {
@@ -66,6 +75,20 @@ public class TestBase {
 	
 	public String getTitlePage() {
 		return driver.getTitle();
+	}
+	
+	public void click(WebElement element, String elementName) {
+		
+		element.click();
+		ExtentListeners.testReport.get().info("Clicking on : "+elementName);
+		
+	}
+	
+	public void type(WebElement element, String value, String elementName) {
+		
+		element.sendKeys(value);
+		ExtentListeners.testReport.get().info("Typing in : "+elementName+" entered the value as : "+value);
+	
 	}
 
 }

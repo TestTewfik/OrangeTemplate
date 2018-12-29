@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteAllTest" duration-ms="35368" started-at="2018-12-28T15:24:30Z" finished-at="2018-12-28T15:25:05Z">
+  <suite name="SuiteAllTest" duration-ms="28713" started-at="2018-12-29T14:58:48Z" finished-at="2018-12-29T14:59:16Z">
     <groups>
     </groups>
-    <test name="TestLoginValidData" duration-ms="12895" started-at="2018-12-28T15:24:30Z" finished-at="2018-12-28T15:24:43Z">
+    <test name="TestLoginValidData" duration-ms="10851" started-at="2018-12-29T14:58:48Z" finished-at="2018-12-29T14:58:58Z">
       <class name="testCases.Login_valid_data_Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@4c371370]" name="setUp" is-config="true" duration-ms="8309" started-at="2018-12-28T15:24:30Z" finished-at="2018-12-28T15:24:38Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@2fb0623e]" name="setUp" is-config="true" duration-ms="5990" started-at="2018-12-29T14:58:48Z" finished-at="2018-12-29T14:58:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@4c371370]" name="login_With_Valid_Data" duration-ms="2213" started-at="2018-12-28T15:24:38Z" finished-at="2018-12-28T15:24:40Z">
+        <test-method status="FAIL" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@2fb0623e]" name="login_With_Valid_Data" duration-ms="1919" started-at="2018-12-29T14:58:54Z" finished-at="2018-12-29T14:58:55Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]]]>
+              <![CDATA[le libellé est erroné expected [Welcome Admin.] but found [Welcome Admin]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]
+              <![CDATA[java.lang.AssertionError: le libellé est erroné expected [Welcome Admin.] but found [Welcome Admin]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertEqualsImpl(Assert.java:137)
@@ -55,23 +55,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_With_Valid_Data -->
-        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@4c371370]" name="logout" duration-ms="843" started-at="2018-12-28T15:24:41Z" finished-at="2018-12-28T15:24:42Z">
+        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@2fb0623e]" name="logout" duration-ms="895" started-at="2018-12-29T14:58:56Z" finished-at="2018-12-29T14:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@4c371370]" name="tearDown" is-config="true" duration-ms="959" started-at="2018-12-28T15:24:42Z" finished-at="2018-12-28T15:24:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@2fb0623e]" name="tearDown" is-config="true" duration-ms="1256" started-at="2018-12-29T14:58:57Z" finished-at="2018-12-29T14:58:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.Login_valid_data_Tests -->
     </test> <!-- TestLoginValidData -->
-    <test name="TestLoginInvalidData" duration-ms="22398" started-at="2018-12-28T15:24:43Z" finished-at="2018-12-28T15:25:05Z">
+    <test name="TestLoginInvalidData" duration-ms="17216" started-at="2018-12-29T14:58:59Z" finished-at="2018-12-29T14:59:16Z">
       <class name="testCases.Login_Invalid_data_Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="setUp" is-config="true" duration-ms="6583" started-at="2018-12-28T15:24:43Z" finished-at="2018-12-28T15:24:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="setUp" is-config="true" duration-ms="4790" started-at="2018-12-29T14:58:59Z" finished-at="2018-12-29T14:59:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="loginInvalidData" duration-ms="1763" started-at="2018-12-28T15:24:51Z" data-provider="dp" finished-at="2018-12-28T15:24:53Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="loginInvalidData" duration-ms="1871" started-at="2018-12-29T14:59:05Z" data-provider="dp" finished-at="2018-12-29T14:59:07Z">
           <params>
             <param index="0">
               <value>
@@ -92,7 +92,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="loginInvalidData" duration-ms="1697" started-at="2018-12-28T15:24:53Z" data-provider="dp" finished-at="2018-12-28T15:24:55Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="loginInvalidData" duration-ms="1320" started-at="2018-12-29T14:59:07Z" data-provider="dp" finished-at="2018-12-29T14:59:08Z">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="loginInvalidData" duration-ms="1607" started-at="2018-12-28T15:24:55Z" data-provider="dp" finished-at="2018-12-28T15:24:56Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="loginInvalidData" duration-ms="1372" started-at="2018-12-29T14:59:08Z" data-provider="dp" finished-at="2018-12-29T14:59:10Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="loginInvalidData" duration-ms="2123" started-at="2018-12-28T15:24:56Z" data-provider="dp" finished-at="2018-12-28T15:24:58Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="loginInvalidData" duration-ms="1668" started-at="2018-12-29T14:59:10Z" data-provider="dp" finished-at="2018-12-29T14:59:11Z">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="loginInvalidData" duration-ms="2580" started-at="2018-12-28T15:24:58Z" data-provider="dp" finished-at="2018-12-28T15:25:01Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="loginInvalidData" duration-ms="1953" started-at="2018-12-29T14:59:12Z" data-provider="dp" finished-at="2018-12-29T14:59:13Z">
           <params>
             <param index="0">
               <value>
@@ -176,7 +176,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="loginInvalidData" duration-ms="2963" started-at="2018-12-28T15:25:01Z" data-provider="dp" finished-at="2018-12-28T15:25:04Z">
+        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="loginInvalidData" duration-ms="1944" started-at="2018-12-29T14:59:14Z" data-provider="dp" finished-at="2018-12-29T14:59:15Z">
           <params>
             <param index="0">
               <value>
@@ -197,7 +197,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@78691363]" name="tearDown" is-config="true" duration-ms="976" started-at="2018-12-28T15:25:04Z" finished-at="2018-12-28T15:25:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@e3b3b2f]" name="tearDown" is-config="true" duration-ms="760" started-at="2018-12-29T14:59:15Z" finished-at="2018-12-29T14:59:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

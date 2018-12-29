@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SuiteAllTest]">
+  <listeners>
+    <listener class-name="listenners.TestngListeners"/>
+  </listeners>
+  <test name="TestLoginValidData(failed)">
+    <classes>
+      <class name="testCases.Login_valid_data_Tests">
+        <methods>
+          <include name="login_With_Valid_Data"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.Login_valid_data_Tests -->
+    </classes>
+  </test> <!-- TestLoginValidData(failed) -->
+</suite> <!-- Failed suite [SuiteAllTest] -->

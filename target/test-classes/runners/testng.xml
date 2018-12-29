@@ -3,7 +3,7 @@
 <suite name="SuiteAllTest">
 
 	<listeners>
-		<listener class-name="listenners.TestngListeners"></listener>
+		<listener class-name="listenners.ExtentListeners"></listener>
 	</listeners>
 	
 	<test thread-count="5" name="TestLoginValidData">

@@ -23,20 +23,20 @@ public class TestUtil extends TestBase  {
 	String excelPath = projectpath+"\\src\\test\\resources\\excel\\data.xlsx"; 
 	
 	
-	public static void captureScreenShot() throws IOException {
+	/*public static void captureScreenShot() throws IOException {
 		String directory = projectpath + "\\src\\test\\resources\\screenshots\\";
 		String fileName = "ScreenShot"+getDate()+".png";
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);											 
 		FileUtils.copyFile(scrFile, new File(directory + fileName));;
-	}
+	}*/
 	
 	
-	public static String getDate()
+	/*public static String getDate()
 	{
 		final DateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
 		Date date = new Date();
 		return(sdf.format(date));
-	}
+	}*/
 	
 	
 	
