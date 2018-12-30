@@ -20,8 +20,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import listenners.ExtentListeners;
 
 
@@ -53,11 +53,13 @@ public class TestBase {
 				driver = new ChromeDriver();
 				
 			} else if (browserName.equalsIgnoreCase("firefox")){
+				
 				System.setProperty("webdriver.gecko.driver", projectpath+"\\src\\test\\resources\\drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
 			}
 			else {
-				System.out.println("ie");
+				System.setProperty("webdriver.edge.driver", projectpath+"\\src\\test\\resources\\drivers\\MicrosoftWebDriver.exe");
+				driver = new EdgeDriver();
 			}
 			
 			driver.manage().timeouts().pageLoadTimeout(Integer.parseInt(prop.getProperty("pageLoadTimeOut")), TimeUnit.SECONDS);

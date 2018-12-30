@@ -2,4 +2,6 @@ base\TestBase.class
 utilitaires\ExcelUtils.class
 utilitaires\TestUtil.class
 pages\LoginPage.class
+listenners\ExtentListeners.class
 pages\HomePage.class
+listenners\ExtentManager.class

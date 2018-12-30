@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="6" failed="0" ignored="0" total="8" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteAllTest" duration-ms="37939" started-at="2018-12-29T02:14:19Z" finished-at="2018-12-29T02:14:57Z">
+  <suite name="SuiteAllTest" duration-ms="18980" started-at="2018-12-29T22:17:48Z" finished-at="2018-12-29T22:18:07Z">
     <groups>
     </groups>
-    <test name="TestLoginValidData" duration-ms="15802" started-at="2018-12-29T02:14:19Z" finished-at="2018-12-29T02:14:35Z">
+    <test name="TestLoginValidData" duration-ms="10751" started-at="2018-12-29T22:17:48Z" finished-at="2018-12-29T22:17:59Z">
       <class name="testCases.Login_valid_data_Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@7133da86]" name="setUp" is-config="true" duration-ms="10777" started-at="2018-12-28T21:14:19Z" finished-at="2018-12-28T21:14:30Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_valid_data_Tests@79d8407f]" name="setUp" is-config="true" duration-ms="6530" started-at="2018-12-29T17:17:48Z" finished-at="2018-12-29T17:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@7133da86]" name="login_With_Valid_Data" duration-ms="2245" started-at="2018-12-28T21:14:30Z" finished-at="2018-12-28T21:14:32Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="PASS" signature="login_With_Valid_Data()[pri:1, instance:testCases.Login_valid_data_Tests@79d8407f]" name="login_With_Valid_Data" duration-ms="1976" started-at="2018-12-29T17:17:55Z" finished-at="2018-12-29T17:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_With_Valid_Data -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@79d8407f]" name="logout" duration-ms="1200" started-at="2018-12-29T17:17:57Z" finished-at="2018-12-29T17:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@79d8407f]" name="tearDown" is-config="true" duration-ms="978" started-at="2018-12-29T17:17:58Z" finished-at="2018-12-29T17:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Login_valid_data_Tests -->
+    </test> <!-- TestLoginValidData -->
+    <test name="TestLoginInvalidData" duration-ms="7569" started-at="2018-12-29T22:18:00Z" finished-at="2018-12-29T22:18:07Z">
+      <class name="testCases.Login_Invalid_data_Tests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="setUp" is-config="true" duration-ms="5019" started-at="2018-12-29T17:18:00Z" finished-at="2018-12-29T17:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="loginInvalidData" duration-ms="1" started-at="2018-12-29T17:18:06Z" data-provider="dp" finished-at="2018-12-29T17:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username cannot be empty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]]]>
+              <![CDATA[Until bug 4512 gonna fix]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at testCases.Login_valid_data_Tests.login_With_Valid_Data(Login_valid_data_Tests.java:31)
+              <![CDATA[org.testng.SkipException: Until bug 4512 gonna fix
+	at testCases.Login_Invalid_data_Tests.loginInvalidData(Login_Invalid_data_Tests.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,48 +87,11 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_With_Valid_Data -->
-        <test-method status="PASS" signature="logout()[pri:2, instance:testCases.Login_valid_data_Tests@7133da86]" name="logout" duration-ms="710" started-at="2018-12-28T21:14:33Z" finished-at="2018-12-28T21:14:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_valid_data_Tests@7133da86]" name="tearDown" is-config="true" duration-ms="847" started-at="2018-12-28T21:14:34Z" finished-at="2018-12-28T21:14:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.Login_valid_data_Tests -->
-    </test> <!-- TestLoginValidData -->
-    <test name="TestLoginInvalidData" duration-ms="21835" started-at="2018-12-29T02:14:35Z" finished-at="2018-12-29T02:14:57Z">
-      <class name="testCases.Login_Invalid_data_Tests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="setUp" is-config="true" duration-ms="8236" started-at="2018-12-28T21:14:35Z" finished-at="2018-12-28T21:14:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1742" started-at="2018-12-28T21:14:44Z" data-provider="dp" finished-at="2018-12-28T21:14:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Username cannot be empty]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1908" started-at="2018-12-28T21:14:46Z" data-provider="dp" finished-at="2018-12-28T21:14:48Z">
+        <test-method status="SKIP" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="loginInvalidData" duration-ms="0" started-at="2018-12-29T17:18:06Z" data-provider="dp" finished-at="2018-12-29T17:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -114,10 +109,49 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Until bug 4512 gonna fix]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Until bug 4512 gonna fix
+	at testCases.Login_Invalid_data_Tests.loginInvalidData(Login_Invalid_data_Tests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1792" started-at="2018-12-28T21:14:48Z" data-provider="dp" finished-at="2018-12-28T21:14:50Z">
+        <test-method status="SKIP" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="loginInvalidData" duration-ms="0" started-at="2018-12-29T17:18:06Z" data-provider="dp" finished-at="2018-12-29T17:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -135,10 +169,49 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Until bug 4512 gonna fix]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Until bug 4512 gonna fix
+	at testCases.Login_Invalid_data_Tests.loginInvalidData(Login_Invalid_data_Tests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="1773" started-at="2018-12-28T21:14:50Z" data-provider="dp" finished-at="2018-12-28T21:14:52Z">
+        <test-method status="SKIP" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="loginInvalidData" duration-ms="1" started-at="2018-12-29T17:18:06Z" data-provider="dp" finished-at="2018-12-29T17:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -156,10 +229,49 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Until bug 4512 gonna fix]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Until bug 4512 gonna fix
+	at testCases.Login_Invalid_data_Tests.loginInvalidData(Login_Invalid_data_Tests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="2220" started-at="2018-12-28T21:14:52Z" data-provider="dp" finished-at="2018-12-28T21:14:54Z">
+        <test-method status="SKIP" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="loginInvalidData" duration-ms="5" started-at="2018-12-29T17:18:06Z" data-provider="dp" finished-at="2018-12-29T17:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -177,10 +289,49 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Until bug 4512 gonna fix]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Until bug 4512 gonna fix
+	at testCases.Login_Invalid_data_Tests.loginInvalidData(Login_Invalid_data_Tests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="loginInvalidData" duration-ms="2050" started-at="2018-12-28T21:14:54Z" data-provider="dp" finished-at="2018-12-28T21:14:56Z">
+        <test-method status="SKIP" signature="loginInvalidData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="loginInvalidData" duration-ms="0" started-at="2018-12-29T17:18:06Z" data-provider="dp" finished-at="2018-12-29T17:18:06Z">
           <params>
             <param index="0">
               <value>
@@ -198,10 +349,49 @@
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Until bug 4512 gonna fix]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Until bug 4512 gonna fix
+	at testCases.Login_Invalid_data_Tests.loginInvalidData(Login_Invalid_data_Tests.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInvalidData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@614ca7df]" name="tearDown" is-config="true" duration-ms="807" started-at="2018-12-28T21:14:56Z" finished-at="2018-12-28T21:14:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Login_Invalid_data_Tests@1757cd72]" name="tearDown" is-config="true" duration-ms="1503" started-at="2018-12-29T17:18:06Z" finished-at="2018-12-29T17:18:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

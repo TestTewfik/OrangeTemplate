@@ -38,9 +38,9 @@ public class ExtentManager extends TestBase {
 	        
 	        extent = new ExtentReports();
 	        extent.attachReporter(htmlReporter);
-	        extent.setSystemInfo("Automation Tester", "Rahul Arora");
-	        extent.setSystemInfo("Organization", "Way2Automation");
-	        extent.setSystemInfo("Build no", "W2A-1234");
+	        extent.setSystemInfo("Automation Tester", "Tewfik");
+	        extent.setSystemInfo("Organisation", "xxxxx inc");
+	        extent.setSystemInfo("Build no", "version-1234");
 	        
 	        
 	        return extent;

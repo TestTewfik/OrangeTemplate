@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rough.TestSampleExtentListeners">
+      <class name="testCases.Login_valid_data_Tests">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="checkSignupPage"/>
+          <include name="logout"/>
         </methods>
-      </class> <!-- rough.TestSampleExtentListeners -->
+      </class> <!-- testCases.Login_valid_data_Tests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

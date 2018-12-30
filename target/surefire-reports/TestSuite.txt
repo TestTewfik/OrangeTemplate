@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.526 s <<< FAILURE! - in TestSuite
-login_With_Valid_Data(testCases.Login_valid_data_Tests)  Time elapsed: 2.262 s  <<< FAILURE!
-java.lang.AssertionError: le lbellé est erroné expected [Welcome Admin.] but found [Welcome Admin]
-	at testCases.Login_valid_data_Tests.login_With_Valid_Data(Login_valid_data_Tests.java:31)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 21.565 s - in TestSuite

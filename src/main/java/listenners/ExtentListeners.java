@@ -17,7 +17,7 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 
 
-public class ExtentListeners implements ITestListener {
+public class ExtentListeners  implements ITestListener {
 
 	
 	static String fileName = "Extent_" + ExtentManager.getDate() + ".html";
@@ -74,8 +74,13 @@ public class ExtentListeners implements ITestListener {
 	public void onTestSkipped(ITestResult result) {
 		String methodName=result.getMethod().getMethodName();
 		String logText="<b>"+"Test Case:- "+ methodName+ " Skipped"+"</b>";		
-		Markup m=MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
+		
+		testReport.get().log(Status.SKIP, result.getThrowable().getMessage());
+		Markup m=MarkupHelper.createLabel(logText, ExtentColor.ORANGE);
 		testReport.get().skip(m);
+		
+		
+		
 
 	}
 
@@ -85,18 +90,13 @@ public class ExtentListeners implements ITestListener {
 	}
 
 	public void onStart(ITestContext context) {
-
-		
-
+		// TODO Auto-generated method stub
 	}
 
 	public void onFinish(ITestContext context) {
 
 		if (extent != null) {
-
 			extent.flush();
 		}
-
 	}
-
 }

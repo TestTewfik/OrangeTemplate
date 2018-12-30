@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="listenners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="TestLoginValidData(failed)">
+  <test thread-count="5" name="TestLoginInvalidData(failed)">
     <classes>
-      <class name="testCases.Login_valid_data_Tests">
+      <class name="testCases.Login_Invalid_data_Tests">
         <methods>
-          <include name="login_With_Valid_Data"/>
-          <include name="tearDown"/>
+          <include name="loginInvalidData" invocation-numbers="3 4"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.Login_valid_data_Tests -->
+      </class> <!-- testCases.Login_Invalid_data_Tests -->
     </classes>
-  </test> <!-- TestLoginValidData(failed) -->
+  </test> <!-- TestLoginInvalidData(failed) -->
 </suite> <!-- Failed suite [SuiteAllTest] -->
