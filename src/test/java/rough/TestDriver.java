@@ -23,7 +23,7 @@ public class TestDriver extends TestBase {
 	public void test01() throws InterruptedException {
 		System.out.println("test01");
 		Assert.assertEquals(getTitlePage(), "OrangeHRM");
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
 	
 	@AfterMethod
