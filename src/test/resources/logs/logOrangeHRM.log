@@ -621,3 +621,36 @@
 [INFO ] 2018-12-29 21:02:47.640 [main] TestBase - Déconnexion avec succés
 [INFO ] 2018-12-29 21:02:47.647 [main] TestBase - testCases.Authentification.Login_valid_data_Tests ----> TERMINÉ
 [INFO ] 2018-12-29 21:02:47.648 [main] TestBase - ----------------------------------------
+[INFO ] 2019-04-21 17:00:08.565 [main] TestBase - -----------------------------------------
+[INFO ] 2019-04-21 17:00:08.573 [main] TestBase - testCases.Authentification.Login_Invalid_data_Tests ----> COMMENCÉ
+[INFO ] 2019-04-21 17:00:09.257 [main] TestBase - Entrer le username :
+[INFO ] 2019-04-21 17:00:09.333 [main] TestBase - Entrer le password :
+[INFO ] 2019-04-21 17:00:09.390 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:10.008 [main] TestBase - Entrer le username :
+[INFO ] 2019-04-21 17:00:10.083 [main] TestBase - Entrer le password :password
+[INFO ] 2019-04-21 17:00:10.120 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:10.726 [main] TestBase - Entrer le username :abc
+[INFO ] 2019-04-21 17:00:10.781 [main] TestBase - Entrer le password :
+[INFO ] 2019-04-21 17:00:10.817 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:11.412 [main] TestBase - Entrer le username :abc
+[INFO ] 2019-04-21 17:00:11.481 [main] TestBase - Entrer le password :password
+[INFO ] 2019-04-21 17:00:11.799 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:12.484 [main] TestBase - Entrer le username :admin
+[INFO ] 2019-04-21 17:00:12.573 [main] TestBase - Entrer le password :Admin123
+[INFO ] 2019-04-21 17:00:12.961 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:13.577 [main] TestBase - Entrer le username :Admin
+[INFO ] 2019-04-21 17:00:13.666 [main] TestBase - Entrer le password :admin1234
+[INFO ] 2019-04-21 17:00:14.301 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:14.828 [main] TestBase - testCases.Authentification.Login_Invalid_data_Tests ----> TERMINÉ
+[INFO ] 2019-04-21 17:00:14.828 [main] TestBase - ----------------------------------------
+[INFO ] 2019-04-21 17:00:40.898 [main] TestBase - -----------------------------------------
+[INFO ] 2019-04-21 17:00:40.898 [main] TestBase - testCases.Authentification.Login_valid_data_Tests ----> COMMENCÉ
+[INFO ] 2019-04-21 17:00:41.011 [main] TestBase - Entrer le username :Admin
+[INFO ] 2019-04-21 17:00:41.115 [main] TestBase - Entrer le password :admin123
+[INFO ] 2019-04-21 17:00:42.476 [main] TestBase - Cliquer sur le bouton 'LOGIN'
+[INFO ] 2019-04-21 17:00:42.522 [main] TestBase - l'utilisateur s'est authetifier avec succés
+[INFO ] 2019-04-21 17:00:43.586 [main] TestBase - Cliquer sur le lien 'Welcome Admin'
+[INFO ] 2019-04-21 17:00:44.104 [main] TestBase - Cliquer sur le bouton 'Logout'
+[INFO ] 2019-04-21 17:00:44.143 [main] TestBase - Déconnexion avec succés
+[INFO ] 2019-04-21 17:00:44.144 [main] TestBase - testCases.Authentification.Login_valid_data_Tests ----> TERMINÉ
+[INFO ] 2019-04-21 17:00:44.145 [main] TestBase - ----------------------------------------
