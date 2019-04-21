@@ -3,7 +3,9 @@ package rough;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
-public class TestngGroups {
+import base.TestBase;
+
+public class TestngGroups extends TestBase {
 
 	@Test(groups= {"Sanity"})
 	public void test1() {
