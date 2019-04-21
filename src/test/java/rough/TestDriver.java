@@ -14,6 +14,7 @@ public class TestDriver extends TestBase {
 	@BeforeMethod
 	public void setUp() throws IOException {
 		driver = initialiserDriver();
+		System.out.println("INITIALISATION OF TEST");
 		
 		
 	}
